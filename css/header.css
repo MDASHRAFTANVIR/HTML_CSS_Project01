@@ -1,1 +1,83 @@
 
+
+header {
+    background-image: url("../images/header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-full {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    
+}
+.main-menu nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-icon ul {
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+}
+
+.logo {
+    color: white;
+    font-family: Spectral;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+    letter-spacing: 0.1px;
+    padding: 30px 0;
+}
+
+.main-menu ul {
+    list-style-type: none;
+}
+
+.main-menu ul a {
+    text-decoration: none;
+    color: var(--light-text-color, #f3f2f2);
+    text-align: center;
+    font-family: Spectral;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.login-option {
+    color: var(--light-text-color, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.3px;
+}
+
+.login-icon li i {
+    color: white;
+    width: 16px;
+    height: 16px;
+}

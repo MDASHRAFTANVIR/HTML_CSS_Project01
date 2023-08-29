@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    box-sizing: border-box;
+    font-family: 'Spectral', serif;
+}
+
+:root {
+    --primary-color: #FFA62B;
+    --secondary-color1: #00A1C1;
+    --secondary-color2: #16697A;
+    --primary-text-color: #FFA62B;
+    --secondary-text-color1: #00A1C1;
+    --secondary-text-color2: #16697A;
+    --faded1: #FEEFDA;
+    --faded2: #DCF9FF;
+    --faded3: #DAEEF2;
+    /* We can use those color like:  color: var(--primary-color) */
+}
+
+
+

@@ -3,15 +3,16 @@
 header {
     background-image: url("../images/header.png");
     background-position: center;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.header-full {
+/* .header-full {
     width: 80%;
     margin: 0 auto;
     padding: 20px 0;
-}
+} */
 
 .navigation {
     display: grid;
@@ -19,6 +20,8 @@ header {
     justify-content: center;
     align-items: center;
     column-gap: 100px;
+    width: 80%;
+    margin: 0 auto;
     
 }
 .main-menu nav ul {
@@ -80,4 +83,68 @@ header {
     color: white;
     width: 16px;
     height: 16px;
+}
+
+@media screen and (max-width: 576px) {
+    .navigation {
+        width: 100%;
+        padding: 40px;
+        background-color: #252B42;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+    .main-menu nav ul  {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+    .main-menu ul a {
+        font-size: 20px;
+    }
+    .main-menu {
+        margin: 0 auto 40px auto;
+    }
+    .main-menu nav ul li:nth-child(2){
+        display: none;
+    }
+    .main-menu nav ul li:nth-child(6){
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .navigation {
+        grid-template-columns: 1fr 3fr 1fr; 
+        column-gap: 80px;
+    }
+    .login-option {
+        display: none;
+    }
+    .main-menu nav ul li:nth-child(2){
+        display: none;
+    }
+
+    .main-menu nav ul li:nth-child(6) {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 920px) {
+    .navigation {
+        grid-template-columns: 1fr 3.5fr 1fr; 
+        column-gap: 80px;
+    }
+    .login-option {
+        display: none;
+    }
+    .main-menu nav ul li:nth-child(2){
+        display: none;
+    }
+
+    .main-menu nav ul li:nth-child(6) {
+        display: none;
+    }
 }

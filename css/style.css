@@ -1,11 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 1440px;
-    box-sizing: border-box;
     font-family: 'Spectral', serif;
 }
-
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 :root {
     --primary-color: #FFA62B;
     --secondary-color1: #00A1C1;

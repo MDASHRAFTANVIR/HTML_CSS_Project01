@@ -20,5 +20,9 @@ body {
     /* We can use those color like:  color: var(--primary-color) */
 }
 
+main {
+    background-color: white; 
+}
+
 
 

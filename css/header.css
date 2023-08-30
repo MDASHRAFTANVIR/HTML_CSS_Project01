@@ -3,7 +3,7 @@
 header {
     background-image: url("../images/header.png");
     background-position: center;
-    background-attachment: scroll;
+
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -210,6 +210,10 @@ header {
         grid-template-columns: 1fr 3fr 1fr; 
         column-gap: 80px;
     }
+
+    .main-menu nav ul {
+        column-gap: 20px;
+    }
     .login-option {
         display: none;
     }
@@ -230,13 +234,14 @@ header {
         line-height: 50px;
     }
     
+    
 }
 
 
 
 /* Large Device Responsiveness **************** */
 
-@media screen and (min-width: 769px) and (max-width: 920px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
 
     /* Navigation Section Responsiveness  */
 

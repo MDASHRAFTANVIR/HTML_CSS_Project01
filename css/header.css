@@ -14,6 +14,12 @@ header {
     padding: 20px 0;
 } */
 
+
+
+/* Navigation Section CSS  */
+/* Navigation Section CSS  */
+/* Navigation Section CSS  */
+
 .navigation {
     display: grid;
     grid-template-columns: 0.5fr 1.5fr 1fr;
@@ -85,7 +91,13 @@ header {
     height: 16px;
 }
 
+
+
+/* Responsiveness for Small Device ********************************** */
 @media screen and (max-width: 576px) {
+
+    /* Navigation Section Responsiveness  */
+
     .navigation {
         width: 100%;
         padding: 40px;
@@ -111,10 +123,19 @@ header {
     .main-menu nav ul li:nth-child(6){
         display: none;
     }
+    .login {
+        column-gap: 15px;
+    }
 
 }
 
+
+/* Responsiveness for Medium Device  
+*****************************/
+
 @media screen and (min-width: 577px) and (max-width: 768px) {
+
+    /* Navigation Section Responsiveness  */
     .navigation {
         grid-template-columns: 1fr 3fr 1fr; 
         column-gap: 80px;
@@ -132,7 +153,14 @@ header {
     
 }
 
+
+
+/* Large Device Responsiveness **************** */
+
 @media screen and (min-width: 769px) and (max-width: 920px) {
+
+    /* Navigation Section Responsiveness  */
+
     .navigation {
         grid-template-columns: 1fr 3.5fr 1fr; 
         column-gap: 80px;

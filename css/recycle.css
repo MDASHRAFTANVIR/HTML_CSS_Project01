@@ -28,17 +28,38 @@
     left: 50%;
     transform: translateY(-25%);
 
-
 }
 
 .recycle-content {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
     
 }
 
+.recycle-content h4 {
+    color: var(--primary-text-color);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 152.941% */
+    letter-spacing: 0.1px;
+    margin-bottom: 15px;
+}
 
+.recycle-content h2 {
+    color: var(--secondary-text-color3);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 58px; /* 131.818% */
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+}
+
+.recycle-content p{
+    
+}
 
 
 

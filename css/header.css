@@ -197,7 +197,6 @@ header {
         background-position-x: 60%;
     }
 
-
 }
 
 
@@ -221,6 +220,7 @@ header {
     .main-menu nav ul li:nth-child(6) {
         display: none;
     }
+
     /* Header Part Responsiveness Here  */
     .header-part {
         width: 60%;

@@ -1,7 +1,76 @@
 
 .recycle {
     width: 80%;
-    margin: 0 auto;
-    padding: 60px 0;
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 90px;
+    justify-content: center;
+    align-items: center;
 }
 
+
+.recycle-image {
+    position: relative;
+}
+
+.recycle-image-2 {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.recycle-image-1 {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateY(-25%);
+
+
+}
+
+.recycle-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 576px) { 
+    .recycle {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 80px;
+        grid-row: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .recycle-image-2 {
+        width: 80%;
+        height: auto;
+    }
+    .recycle-image-1 {
+        width: 50%;
+        height: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 769px) {
+    .recycle {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 80px;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+}

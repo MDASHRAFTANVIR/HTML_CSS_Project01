@@ -18,6 +18,7 @@ body {
     --faded1: #FEEFDA;
     --faded2: #DCF9FF;
     --faded3: #DAEEF2;
+    --gray: #737373;
     /* We can use those color like:  color: var(--primary-color) */
 }
 

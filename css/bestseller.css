@@ -2,5 +2,56 @@
 .best-seller {
     width: 80%;
     margin: 0 auto;
-    padding: 40px;
+}
+
+.seller-product {
+    padding: 40px 30px;
+}
+
+.seller-product h2 {
+    color: var(--secondary-text-color3);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+    letter-spacing: 0.1px;
+    margin-bottom: 25px;
+}
+.seller-product hr {
+    border: 1px solid #ECECEC;
+}
+/* List Content Design Here  */
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin: 50px 0;
+    
+}
+
+.list {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    
+}
+
+.list img {
+    height: auto;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.list-item {
+    padding: 20px;
+}
+
+.list-item h4 {
+    color: var(--secondary-text-color3);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 152.941% */
+    letter-spacing: 0.1px;
+
 }

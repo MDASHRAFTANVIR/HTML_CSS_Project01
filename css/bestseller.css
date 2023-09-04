@@ -93,3 +93,25 @@
 
 /* Small Device Responsiveness  */
 
+@media screen and (max-width: 576px) {
+    .product {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+/* Medium Device Reponsiveness  */
+@media screen and (min-width: 577px) and (max-width: 769px) {
+    .product {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* Large Device Responsiveness  */
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+    .product {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

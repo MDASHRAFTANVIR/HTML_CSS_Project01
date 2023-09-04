@@ -9,11 +9,15 @@
 .indoors-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 30px;
+    column-gap: 40px;
     justify-content: center;
     align-items: center;
 }
 
+.indoor-content img {
+    width: 100%;
+    height:auto;
+}
 .indoor-content h3 {
     margin-bottom: 20px;
     color: #737373;
@@ -24,3 +28,48 @@
     letter-spacing: 0.2px;
 }
 
+
+
+/* Responsive Code For Small Device  */
+@media screen and (max-width: 576px) {
+    .indoors-part {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+    .indoors-part > :nth-child(1) {
+        order: 2;
+    }
+    .indoors-part > :nth-child(2) {
+        order: 1;
+    }
+
+    .indoor-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .con {
+        text-align: center;
+    }
+}
+
+
+
+/* Responsive Code For Medium Device  */
+@media screen and (min-width: 577px) and (max-width: 769px) {
+    .indoors-part {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+}
+
+/* Responsive Code For Large Device 
+ */
+
+@media screen and (min-width: 770px) and (max-width: 1200px)  {
+    .indoors-part {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+}

@@ -9,7 +9,7 @@
 .indoors-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 40px;
+    column-gap: 60px;
     justify-content: center;
     align-items: center;
 }
@@ -34,7 +34,7 @@
 @media screen and (max-width: 576px) {
     .indoors-part {
         grid-template-columns: repeat(1, 1fr);
-        row-gap: 30px;
+        row-gap: 40px;
     }
     .indoors-part > :nth-child(1) {
         order: 2;

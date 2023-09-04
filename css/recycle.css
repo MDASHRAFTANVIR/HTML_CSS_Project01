@@ -88,6 +88,15 @@
     border: none;
 }
 
+.secondary-button-1:hover {
+    background-color: white;
+    color: var(--secondary-text-color3);
+    border-radius: 5px;
+    border: 2px solid var(--secondary-text-color3);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .secondary-button-2 {
     background-color: white;
     color: var(--secondary-text-color3);
@@ -98,6 +107,16 @@
     line-height: 22px; /* 137.5% */
     letter-spacing: 0.2px;
     border: 2px solid var(--secondary-text-color3);
+}
+
+.secondary-button-2:hover {
+    background-color: var(--secondary-text-color3);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 
